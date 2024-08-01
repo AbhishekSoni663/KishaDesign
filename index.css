@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@font-face {
+  font-family: myFirstFont;
+  src: url(/avenir/Avenir-Light.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: mySecondFont;
+  src: url(/helveticaneue-2-cufonfonts/Light.ttf);
+}
+@font-face {
+  font-family: myThirdFont;
+  src: url(/helveticaneue-2-cufonfonts/HelveticaNeueHv.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-logo img {
+  margin-bottom: -97px;
+  height: 310px;
+}
+.header-logo h1 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #4b0a3a;
+    font-family: "Playfair Display", serif;
+}
+.about-h5 {
+  font-size: 40px;
+  color:#4b0a3a;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+}
+.about-p {
+  font-size: 14px;
+}
+.about-k-h6 h6 {
+  font-size: 23px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+   color: #970a3a;
+}
+.about-schedule h6 {
+  font-size: 21px;
+  font-weight: 400;
+  font-family: "Fraunces", serif;
+}
+.about-schedule a {
+  font-size: 14px;
+  color: #4b3466;
+  font-family: myThirdFont;
+  font-weight: 400;
+}
+.form-detail h1 {
+  font-size: 43px;
+  font-family: "Fraunces", serif;
+  font-weight: 400;
+  color: #5e5b5d;
+}
+.form-detail p , .about-ol p{
+  font-size: 14px;
+  font-family: mySecondFont;
+}
+.ol-li li{
+  font-size: 12px;
+  font-weight: 400;
+}
+.ol-li li::marker{
+  font-size: 16px;
+}
+.form-icon span {
+  background-color: black;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-icon {
+  width: 75px;
+  background-color: aliceblue;
+}
+.form-icon i {
+  font-size: 10px;
+  color: white;
+}
+.fa-facebook-f {
+  font-size: 10px !important;
+}
+
+.form-container {
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+.btn-custom {
+  background-color: #4a063d;
+  color: white;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-control {
+  margin-top: 10px;
+}
+.form-row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.form-group.col-md-6 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.about-k-h6 p , .about-schedule p{
+    font-size: 14px;
+}
+
+.form-group label {
+  font-size: 12px;
+  font-family: myFirstFont;
+  color:#3a062a;
+}
+@media (max-width: 768px) {
+  .header-logo img {
+    margin-bottom: -51px;
+    height: 190px;
+  }
+  .header-logo h1 , .about-h5 {
+    font-size: 21px;
+  }
+  .about-k-h6 p , .about-schedule p{
+    font-size: 12px;
+}
+.form-detail h1{
+    font-size: 30px;
+}
+.form-detail p , .about-ol p{
+    font-size: 12px;
+}
+  .about-p p{
+    font-size: 12px;
+  }
+  .about-schedule h6{
+    font-size: 16px;
+  }
+}
+@media(max-width:575px){
+    .header-logo img{
+        margin-bottom: 0px;
+        height: auto;
+    }
+}
+
+.btn{
+  font-size: 10px;
+  font-family: myFirstFont;
+}
