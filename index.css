@@ -41,16 +41,22 @@
   font-size: 23px;
   font-weight: 400;
   font-family: "Playfair Display", serif;
-   color: #970a3a;
+   color: #4b0a3a;
+}
+.about-k-h6 p{
+  font-family: mySecondFont;
+  font-size: 16px;
+  color: #431132;
 }
 .about-schedule h6 {
-  font-size: 21px;
-  font-weight: 400;
+  font-size: 25px;
+  font-weight: 300;
+  color: #4b0a3a;
   font-family: "Fraunces", serif;
 }
 .about-schedule a {
   font-size: 14px;
-  color: #4b3466;
+  color: #4b0a3a;
   font-family: myThirdFont;
   font-weight: 400;
 }
@@ -58,7 +64,10 @@
   font-size: 43px;
   font-family: "Fraunces", serif;
   font-weight: 400;
-  color: #5e5b5d;
+  color: #613650;
+}
+.new-p{
+  color:#3a062a;
 }
 .form-detail p , .about-ol p{
   font-size: 14px;
@@ -155,7 +164,3 @@
     }
 }
 
-.btn{
-  font-size: 10px;
-  font-family: myFirstFont;
-}
