@@ -174,7 +174,20 @@
     margin-bottom: -21px;
     max-height: 190px;
   }
-
+.accordion-body {
+  font-family: myFirstFont;
+  letter-spacing: 0.1em;
+  font-size: 12px !important;
+}
+.accordion-header h6 {
+  font-size: 13px !important;
+  letter-spacing: 1px;
+  font-family: myFirstFont;
+  font-weight: 500;
+}
+.accordion-icon{
+  font-size: 13px;
+}
   .new-crs-text p {
     font-size: 12px;
   }
@@ -368,10 +381,20 @@
 
 /*  */
 
-
 .accordion-header.active {
   border-bottom: 1px solid #000;
 }
-.accordion-header{
+.accordion-header {
   transition: all ease-in-out;
+}
+.accordion-body {
+  font-family: myFirstFont;
+  letter-spacing: 0.1em;
+  font-size: 18px;
+}
+.accordion-header h6 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: myFirstFont;
+  font-weight: 500;
 }
