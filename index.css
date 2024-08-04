@@ -227,6 +227,15 @@
   .ol-li li::marker {
     font-size: 10px;
   }
+  .start-heading h1{
+    font-size: 23px !important;
+  }
+  .start-heading p{
+    font-size: 13px !important;
+  }
+  .start-heading button{
+    font-size: 13px !important;
+  }
 }
 
 @media (max-width: 575px) {
@@ -409,3 +418,30 @@
  font-family: myFirstFont;
   font-weight: 400;
 }
+
+/*  */
+
+/*  */
+.modal-submit-button button{
+  background-color: #8c2a29;
+}
+.start-heading button{
+  background-color: #8c2a29;
+  width: 200px;
+  font-family: myFirstFont;
+}
+.start-heading h1{
+  font-family: myThirdFont;
+  font-size: 40px;
+}
+.start-heading p{
+  font-family: myFirstFont;
+  font-size: 17px;
+}
+.start-heading button:hover{
+  background-color: black;
+}
+.modal-submit-button:hover{
+  background-color: black;
+}
+/*  */
