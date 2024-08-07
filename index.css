@@ -358,21 +358,21 @@
 }
 
 .box-1 {
-  background-image: url(./img/drive-download-20240807T120720Z-001/30.JPG);
+  background-image: url(/img/drive-download-20240807T120720Z-001/30.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
 }
 
 .box-2 {
-  background-image: url(./img/drive-download-20240807T120720Z-001/44.JPEG);
+  background-image: url(/img/drive-download-20240807T120720Z-001/44.JPEG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
 }
 
 .box-3 {
-  background-image: url(./img/drive-download-20240807T120720Z-001/10.JPEG);
+  background-image: url(/img/drive-download-20240807T120720Z-001/10.JPEG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
